@@ -32,7 +32,7 @@ git clone [https://github.com/your_username/repo_name.git](https://github.com/ak
 ```
 - **Install Dependencies:** Ensure you have Python 3.x installed and the required libraries by running-
 ```
-pip install numpy pandas scikit-learn tensorflow matolotlib cv2
+pip install numpy pandas scikit-learn matplotlib seaborn
 ```
 - **Data Preparation:** Load the dataset or a new dataset in a format suitable for training the model.
 - **Run the Code:** Execute the code that trains the model and evaluates its performance on the test data.
