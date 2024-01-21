@@ -16,11 +16,11 @@ Heart rate is a vital physiological parameter reflecting the frequency of cardia
 
 ### File Descriptions
 
-**train_data.csv** - Contains the training data used for training the model
-**aicure_ThreeMusketeers.ipynb** - Contains the code used for designing and training the model
-**stacking_model.joblib** - Trained Model
-**Report_aicure_ThreeMusketeers.pdf** - Report document
-**run.py** - Python script to test the model with a dataset
+- **train_data.csv** - Contains the training data used for training the model
+- **aicure_ThreeMusketeers.ipynb** - Contains the code used for designing and training the model
+- **stacking_model.joblib** - Trained Model
+- **Report_aicure_ThreeMusketeers.pdf** - Report document
+- **run.py** - Python script to test the model with a dataset
 
 ### Implementation Details
 - **Data Preprocessing:** The dataset is preprocessed to handle any missing values.
@@ -46,7 +46,7 @@ git clone [https://github.com/your_username/repo_name.git](https://github.com/ak
 ```
 pip install numpy pandas scikit-learn matplotlib seaborn
 ```
-- **Using run.py file:** Ensure that the test dataset, run.py file and the model file stackingmodel.joblib are located in the same directory. After running the run.py file, three parameters have to be given in the following format-
+- **Using run.py file:** Ensure that the test dataset, run.py file and the model file stacking_model.joblib are located in the same directory. After running the run.py file, three parameters are to be given in the following format-
 ```
 python run.py stacking_model.joblib <your_test_data.csv> <your_output_file_name.csv>
 ```
