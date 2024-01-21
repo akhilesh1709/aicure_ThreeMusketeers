@@ -2,6 +2,8 @@
 
 This repository contains the code which contains the model designed for the competition AI Cure: Where AI meets health. In this code, we have used a model called Stacking Regressor model that is used to obtain the heart rate of an individual given the features.
 
+### Team description
+
 ### Problem statement
 
 Heart rate is a vital physiological parameter reflecting the frequency of cardiac contractions. Influenced by factors like age, fitness, and autonomic nervous system activity, heart rate serves as a key indicator of cardiovascular health. Monitoring heart rate during activities aids in optimizing exercise intensity and assessing overall well-being.The goal is to construct an advanced model capable of accurately predicting an individual's heart rate.
