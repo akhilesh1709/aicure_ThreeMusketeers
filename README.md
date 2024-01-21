@@ -35,7 +35,7 @@ The dataset is provided in train_data.csv.
 ### How to Use the Repository
 - **Clone the Repository:** Clone this repository to your local machine using the following command:
 ```
-git clone [https://github.com/your_username/repo_name.git](https://github.com/akhilesh1709/Cancer-recognition-using-hybrid-transfer-learning.git)
+git clone [https://github.com/your_username/repo_name.git](https://github.com/akhilesh1709/aicure_ThreeMusketeers.git)
 ```
 - **Install Dependencies:** Ensure you have Python 3.x installed and the required libraries by running-
 ```
