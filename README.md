@@ -51,7 +51,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 ```
 python run.py stacking_model.joblib <your_test_data.csv>
 ```
-The predicted Heart Rate values are created in **result.csv** after the script is run.
+The predicted Heart Rate values are created in **results.csv** after the script is run.
 
 - **Data Preparation:** Load the dataset or a new dataset in a format suitable for training the model.
 - **Run the Code:** Execute the code that trains the model and evaluates its performance on the test data.
