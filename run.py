@@ -31,21 +31,22 @@ def save_predictions_csv(uuid_column, predictions, output_csv_filename):
     # Save predictions and UUIDs to a new CSV file
     result_df = pd.DataFrame({
         'uuid': uuid_column,  # Include 'uuid' column in the output
-        'predicted_value': predictions
+        'HR': predictions
     })
     result_df.to_csv(output_csv_filename, index=False)
     print(f"Predictions saved to {output_csv_filename}")
 
 def main():
     # Check if the correct number of command-line arguments is provided
-    if len(sys.argv) != 4:
-        print("Usage: python run.py <model_filename> <test_csv_filename> <output_csv_filename>")
+    if len(sys.argv) != 3:
+        print("Usage: python run.py <model_filename> <test_csv_filename>")
         sys.exit(1)
 
     # Extract command-line arguments
     model_filename = sys.argv[1]
     csv_filename = sys.argv[2]
-    output_csv_filename = sys.argv[3]
+
+    output_csv_filename = 'results.csv'
 
     model = load_model(model_filename)
 
