@@ -1,6 +1,6 @@
 # AI Cure - Team Three Musketeers
 
-This repository contains the code which contains the model designed for the competition AI Cure: Where AI meets health. In this code, we have used a model called Stacking Regressor model that is used to obtain the heart rate of an individual given the features.
+This repository contains the code which contains the model designed for the competition AI Cure: Where AI meets health. In this code, we have used a model called Stacking Regressor model that is used to obtain the heart rate of an individual given the parameters.
 
 ### Team description
 Team name: Three Musketeers
