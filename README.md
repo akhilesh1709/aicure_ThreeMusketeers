@@ -7,7 +7,7 @@ Team name: Three Musketeers
 
 Team members:
 1. Akhilesh T S
-2. Karthik Sriram S
+2. Karthik Sriram V
 3. Keerthisree Sai Narne
 
 ### Problem statement
@@ -19,7 +19,7 @@ Heart rate is a vital physiological parameter reflecting the frequency of cardia
 The dataset is provided in train_data.csv.
 
 ### Implementation Details
-- **Data Preprocessing:** The dataset is preprocessed to handle any missing values, perform feature scaling, and encode categorical variables as needed.
+- **Data Preprocessing:** The dataset is preprocessed to handle any missing values.
 - **Train-Test Split:** The dataset is split into a training set and a test set.
 - **Model Training:** The Stacking Regressor model is defined along with RidgeCV estimator and is used to train the dataset.
 - **Model Evaluation:** The trained model is evaluated on the test data to assess its performance in prediction.
