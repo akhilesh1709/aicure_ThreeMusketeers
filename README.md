@@ -46,7 +46,7 @@ git clone [https://github.com/your_username/repo_name.git](https://github.com/ak
 ```
 pip install numpy pandas scikit-learn matplotlib seaborn
 ```
-- **Using run.py file:** Ensure that the dataset, run.py file and the model file stackingmodel.joblib are located in the same location. After running the run.py file, three parameters have to be given in the following format-
+- **Using run.py file:** Ensure that the test dataset, run.py file and the model file stackingmodel.joblib are located in the same directory. After running the run.py file, three parameters have to be given in the following format-
 ```
 python run.py stacking_model.joblib <your_test_data.csv> <your_output_file_name.csv>
 ```
