@@ -10,6 +10,8 @@ Team members:
 2. Karthik Sriram V
 3. Keerthisree Sai Narne
 
+Institute name: SASTRA University
+
 ### Problem statement
 
 Heart rate is a vital physiological parameter reflecting the frequency of cardiac contractions. Influenced by factors like age, fitness, and autonomic nervous system activity, heart rate serves as a key indicator of cardiovascular health. Monitoring heart rate during activities aids in optimizing exercise intensity and assessing overall well-being.The goal is to construct an advanced model capable of accurately predicting an individual's heart rate.
